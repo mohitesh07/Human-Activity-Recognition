@@ -26,6 +26,6 @@ keras
 
 ```
 make a folder data/ and put two .csv files downloaded
-python accel_gyro_predict.py
-python accel_predict.py
+python accel_gyro_predict.py ax,ay,az,gx,gy,gx
+python accel_predict.py ax,ay,az
 ```
