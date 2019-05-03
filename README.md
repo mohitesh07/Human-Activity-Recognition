@@ -6,6 +6,10 @@
 
 Predict the motion from mobile phone gyroscope and accelerometer data using MLP Classifier.
 
+Link to dataset
+```
+https://archive.ics.uci.edu/ml/datasets/Heterogeneity+Activity+Recognition
+```
 
 Dependencies
 ```
@@ -21,6 +25,7 @@ keras
 ### Usage Instructions
 
 ```
+make a folder data/ and put two .csv files downloaded
 python accel_gyro_predict.py
 python accel_predict.py
 ```
