@@ -8,11 +8,12 @@ from sklearn.externals import joblib
 import numpy as np
 import sys
 
+
 # In[2]:
 
 
 # Load the model from the file 
-mlp_from_joblib = joblib.load('accel_gyro.pkl')
+mlp_from_joblib = joblib.load('accel.pkl')
 
 
 # In[3]:
